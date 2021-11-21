@@ -5,7 +5,7 @@ author: admin
 widget_id: about-david
 headless: true
 weight: 20
-title: ""
+title: "👋🏻 Welcome!"
 design:
   background:
     image: ""
