@@ -1,0 +1,11 @@
+# Font style metadata
+name = "dfinr_fonts"
+
+# Optional Google font URL
+google_fonts = "family=PT+Sans:wght@700&family=Playfair+Display"
+
+# Font families
+heading_font = "PT Sans"
+body_font = "Playfair Display"
+nav_font = "PT Sans"
+mono_font = "Roboto Mono"
