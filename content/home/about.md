@@ -8,7 +8,7 @@ weight: 20
 title: ""
 design:
   background:
-    image: img_0428-2021-11-21-01_22_12.jpg
-    image_darken: 0.3
-    text_color_light: true
+    image: ""
+    image_darken: ""
+    text_color_light: false
 ---
