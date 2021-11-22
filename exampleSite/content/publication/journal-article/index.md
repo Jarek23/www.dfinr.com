@@ -1,7 +1,7 @@
 ---
 title: "An example journal article"
 authors:
-- admin
+- david-finster
 - Robert Ford
 author_notes:
 - "Equal contribution"

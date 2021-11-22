@@ -5,11 +5,11 @@ date: 2021-11-21T22:19:54.661Z
 draft: false
 featured: false
 authors:
-  - admin
+  - david-finster
 tags:
   - Guitar
 image:
-  filename: pedalboard.jpg
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---

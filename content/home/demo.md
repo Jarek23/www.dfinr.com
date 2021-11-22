@@ -8,7 +8,7 @@ headless: true
 weight: 15
 title: David Finster
 subtitle: ""
-active: true
+active: false
 design:
   columns: "1"
   background:

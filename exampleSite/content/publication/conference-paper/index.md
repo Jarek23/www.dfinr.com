@@ -1,7 +1,7 @@
 ---
 title: "An example conference paper"
 authors:
-- admin
+- david-finster
 - Robert Ford
 date: "2013-07-01T00:00:00Z"
 doi: ""

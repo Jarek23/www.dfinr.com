@@ -1,7 +1,7 @@
 ---
 widget: about
 active: true
-author: admin
+author: david-finster
 widget_id: about-david
 headless: true
 weight: 20
