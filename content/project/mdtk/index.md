@@ -5,7 +5,7 @@ tags:
 - Vale
 - Markdown
 date: "2021-04-27T00:00:00Z"
-
+draft: true
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 

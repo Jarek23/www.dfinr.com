@@ -36,25 +36,16 @@ experience:
   - title: Owner
     company: ProtectBits
     company_url: ''
-#    company_logo: org-x
-    location: Florida
-    date_start: '2013-01-01'
-    date_end: '2020-02-23'
-    description: Principal IT consultant serving small business and govenrnment clients.
-
-  - title: Owner
-    company: Fortress Computer Service
-    company_url: ''
-#    company_logo: org-x
+    company_logo: protectbits
     location: Texas
     date_start: '2004-01-20'
-    date_end: '2012-12-31'
-    description: Principal IT consultant serving small business and govenrnment clients.
+    date_end: '2020-02-23'
+    description: Founder and principal IT consultant serving business, government, and residential clients.
 
   - title: Senior Programmer III
     company: Levi Strauss & Co.
-    company_url: 'https://levis.com'
-#    company_logo: org-x
+    company_url: 'https://www.levi.com/US/en_US/features/our-values'
+    company_logo: Levis_logo
     location: Texas
     date_start: '2001-01-01'
     date_end: '2004-12-31'
@@ -63,7 +54,7 @@ experience:
   - title: Webmaster
     company: Micrografx / Corel
     company_url: ''
-#    company_logo: org-x
+    company_logo: Corel_logo
     location: Texas
     date_start: '1999-01-01'
     date_end: '2000-12-31'
@@ -72,7 +63,7 @@ experience:
   - title: Technical Specialist
     company: Thomson Reuters / Computer Language Research
     company_url: 'https://tax.thomsonreuters.com/us/en/cs-professional-suite/gosystem-tax-rs'
-#    company_logo: org-x
+    company_logo: Thomson_Reuters_logo
     location: Texas
     date_start: '1992-01-01'
     date_end: '1999-12-31'

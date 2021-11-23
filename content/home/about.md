@@ -11,6 +11,6 @@ design:
     image: ""
     image_darken: ""
     text_color_light: false
-    gradient_start: "#ffffff"
-    gradient_end: rgba(21, 101, 192, 0.2)
+#    gradient_start: "#ffffff"
+#    gradient_end: rgba(21, 101, 192, 0.2)
 ---
