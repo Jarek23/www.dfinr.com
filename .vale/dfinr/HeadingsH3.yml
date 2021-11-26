@@ -1,0 +1,15 @@
+---
+# Dfinr styles are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+# https://creativecommons.org/licenses/by/4.0/
+#
+extends: capitalization
+message: "Heading level three should use Chicago Manual of Style title case."
+link: https://dfinr.com/style-guide/
+level: error
+scope: heading.h3
+match: $title
+style: Chicago
+exceptions:
+  - macOS
+  - cPanel
+

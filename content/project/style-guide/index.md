@@ -1,6 +1,6 @@
 ---
-title: Vultr Markdown Toolkit
-summary: Style guide and vocabulary for the Vale linter. 
+title: Vultr Style Guide
+summary: A style guide and vocabulary for the Vale linter. 
 tags:
 - Documentation
 - Markdown
@@ -9,16 +9,17 @@ date: "2021-04-27T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
-#image:
-#  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
+image:
+  preview_only: true
 
 links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow me for updates
-#  url: https://twitter.com/dfinr
-url_code: "https://github.com/vultr/vultr-mdtk"
+- name: Style Guide
+  url: https://www.vultr.com/docs/vultr-docs-style-guide
+- icon: github
+  icon_pack: fab
+  name: Markdown Toolkit
+  url: https://github.com/dfinr/vultr-mdtk
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -30,4 +31,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 # slides: "api"
 ---
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+I'm the author of the [Vultr Style Guide](https://www.vultr.com/docs/vultr-docs-style-guide) and the companion [Vultr Markdown Toolkit](https://github.com/dfinr/vultr-mdtk).
+
+The guide is purposefully basic because I found that the number of contributors plummeted when I wrote the first version. Vultr is trying to attract contributions from community authors, and I believe they were choosing not to participate because the program was intimidating. I streamlined the guide after a few months to create a balance that informs the authors without overburdening them. 
+
+As a companion, I created a custom set of Vale style rules and vocabulary and bundled that with a preconfigured VSCode workspace and recommended extensions. I publish that authoring environment as the [Vultr Markdown Toolkit](https://github.com/dfinr/vultr-mdtk).

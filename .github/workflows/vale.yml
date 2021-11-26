@@ -1,0 +1,23 @@
+name: Vale
+
+on:
+  push:
+    branches: [ draft ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Vale
+        uses: errata-ai/vale-action@v1.4.2
+        with:
+          debug: true
+          files: content
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_COMMENT_TOKEN: ${{ secrets.GH_COMMENT_TOKEN }}

@@ -1,0 +1,13 @@
+---
+# Based on work created and shared by Microsoft and 
+# used according to terms described in the Creative Commons 4.0 Attribution International License.
+# https://github.com/MicrosoftDocs/microsoft-style-guide/lob/master/LICENSE
+extends: existence
+message: "Ellipsis are seldom used in documentation."
+link: https://dfinr.com/style-guide/
+level: warning
+nonword: true
+action:
+  name: remove
+tokens:
+  - '\.\.\.'

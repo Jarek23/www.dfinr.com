@@ -25,4 +25,4 @@ You'll probably find this one if you search for "[Bamboo Bath and Shower Mat(19.
 
 The total cost was $38 and an hour of my time for planning and assembly.
 
-{{< figure src="Pedalboard.jpg" caption="The assembled pedallboard" numbered="true" >}}
+{{< figure src="Pedalboard.jpg" caption="The assembled pedalboard" numbered="true" >}}

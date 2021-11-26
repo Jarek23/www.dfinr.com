@@ -1,0 +1,11 @@
+---
+# Based on work created and shared by Google and 
+# used according to terms described in the Creative Commons 4.0 Attribution License.
+# https://developers.google.com/terms/site-policies
+extends: existence
+message: "Please do not use exclamation points."
+link: https://dfinr.com/style-guide/
+level: suggestion
+nonword: true
+tokens:
+  - '\w!(?:\s|$)'

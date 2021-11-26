@@ -19,7 +19,7 @@ slides: thr-10-repair
 
 When I broke the power plug in my Yamaha guitar amp, it took me a couple months to find the right part to fix it. It's not just a simple barrel connector like you'd find on most consumer electronics; it has an internal battery disconnect switch when AC power is plugged in.
 
-After a lot of research, I managed to find the part. It's a Yamaha V5095000. SMK is the OEM for Yamaha, and this part is also known as an SMK LGP7031-0300.
+After a lot of research, I managed to find the part. It's a Yamaha V5095000, which is a private-labeled SMK LGP7031-0300.
 
 {{< figure src="Yamaha-DC-Jack-PN-V5095000---SMK-PN-LGP7031-0300---box-side.jpg" caption="" numbered="true" >}}
 

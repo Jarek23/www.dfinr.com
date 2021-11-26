@@ -13,7 +13,7 @@ slides:
   highlight_style: github
 ---
 
-# How to Repair a Yamaha THR-10 Guitar Amp 
+# Repair a Yamaha THR-10 Guitar Amp 
 
 I broke my guitar amp power plug. This is how I fixed it.
 

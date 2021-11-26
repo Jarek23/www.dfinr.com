@@ -1,0 +1,18 @@
+---
+# Dfinr styles are released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+# https://creativecommons.org/licenses/by/4.0/
+#
+# Test for 'First', 'Next', and 'Finally' at the beginning of a sentence.
+#
+extends: existence
+message: "This looks like a sequence of steps. Please use numbered lists when possible."
+link: https://dfinr.com/style-guide/
+level: warning
+nonword: true
+scope: raw
+tokens:
+  - '([a-z][.?!]\s|^)First(ly|\s|,)'
+  - '([a-z][.?!]\s|^)Next(\s|,)'
+  - '([a-z][.?!]\s|^)Last(ly|\s|,)'
+  - '([a-z][.?!]\s|^)Finally(\s|,)'
+
