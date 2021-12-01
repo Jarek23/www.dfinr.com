@@ -34,6 +34,6 @@ url_video: ""
 # slides: "api"
 ---
 
-Version 2 of the [Vultr API](https://www.vultr.com/api/) is a major upgrade that brings Vultr into alignment with industry best practices. I'm honored that David Dymko, Vultr's Director of Cloud Native Technology, asked me to edit the documentation for his group.
+Version 2 of the [Vultr API](https://www.vultr.com/api/) is a major upgrade that brings Vultr into alignment with industry best practices. 
 
-This was my first production OpenAPI project. The biggest thing I learned on this project is that Stoplight Studio is the absolute worst editor, except for all the other ones. I wrote most of the YAML with VSCode and used Stoplight to validate it before sending the documentation to David's team. I'd like to tackle another project like this again, but with a better workflow that includes the Vale linter.
+This was my first production OpenAPI project. The biggest thing I learned on this project is that Stoplight Studio is the absolute worst editor, except for all the other ones. I wrote most of the YAML with VSCode and used Stoplight to validate it. I'd like to tackle another project like this again, but with a better workflow that includes the Vale linter.
