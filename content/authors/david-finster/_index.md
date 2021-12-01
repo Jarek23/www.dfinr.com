@@ -33,7 +33,7 @@ email: "david@dfinr.com"
 ---
 I'm a technical writer, editor, plain language advocate, a veteran IT consultant and successful business owner. I'm also a competitive sailor, amateur coffee roaster, and a really poor guitar player.
 
-<!--See my current [projects](/project/), recent [posts](/post/), and a step-by-step guide to [repair a Yamaha THR-10 guitar amp](/post/thr-10-repair/). -->
-
-If you need to contact me securely, I publish [my public PGP key Keybase](https://keybase.io/dfnr).
+<!--See my current [projects](/project/), recent [posts](/post/), and a step-by-step guide to [repair a Yamaha THR-10 guitar amp](/post/thr-10-repair/). --> 
 <!-- {{< icon name="download" pack="fas" >}}You can {{< staticref "uploads/dfinster_resume.pdf" "newtab" >}}download my resumé{{< /staticref >}} here. -->
+
+If you need to contact me securely, I publish [my public PGP key Keybase](https://keybase.io/dfnr). The fingerprint is: `E7B5 CEA5 25ED 4FF1`
