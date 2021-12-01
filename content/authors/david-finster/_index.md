@@ -1,5 +1,5 @@
 ---
-role: Technical Editor
+role: Senior Technical Editor
 avatar_filename: img_0428-2021-11-21-01_22_12.jpg
 bio: I’m a technical writer & editor, plain language advocate, IT consultant, and successful business owner. I'm a competitive sailor, weak guitar player, and amateur coffee roaster.
 interests:
