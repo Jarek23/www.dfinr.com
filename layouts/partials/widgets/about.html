@@ -108,16 +108,19 @@
       </div>
       {{ end }}
 
-<!-- dfinr: Will read the quotes.csv and grab random quotes on rebuild-->     
+<!-- 
+dfinr-quotes for Hugo
+
+Read /quotes.csv, build an array, and display a random quote on each page load. 
+This is a quick hack. I'll move it to a Hugo partial template soon and fix the inline styles.
+-->
 
         <div class="col-md-7">
           <div class="section-subheading">Quote of the Day</div>
           <div id="quote" style="color:#1565c0; font-family: 'PT Sans', sans-serif; font-weight: 400; line-height: 1.25; text-rendering: optimizeLegibility;"></div>
           <div id="source" style="color:#1565c0; font-weight:bold; font-size:.85em; font-style: italic;"></div>
         </div>
-    </div>
-  </div>
-</div>
+
 <script>
     var quote=new Array();
     var source=new Array();
@@ -133,3 +136,11 @@
     document.getElementById("quote").innerHTML = quote[index];
     document.getElementById("source").innerHTML = source[index];
 </script>
+
+<!-- 
+END dfinr-quotes for Hugo
+-->
+
+    </div>
+  </div>
+</div>
