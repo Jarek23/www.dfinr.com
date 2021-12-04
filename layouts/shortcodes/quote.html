@@ -22,7 +22,25 @@ Include the shortcode in your Markdown post, document, etc. The shortcode allows
         
     heading: string
       * Optional title to display above quote.
-    
+
+### Examples:
+
+  Random formatted quote, no heading. (default to style 2)
+
+    {{% quote %}}
+
+  Random formatted quote, no heading. (explicit style 2)
+
+    {{% quote 2 %}}
+
+  Random formatted quote with heading.
+
+    {{% quote 2 "Quote of the Day" %}}
+
+  Random plain quote, no heading.
+
+    {{% quote 1 %}}
+
 */}}
 
 {{ $qstyle := .Get 0 | default 2 }}

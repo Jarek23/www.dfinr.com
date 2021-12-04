@@ -10,7 +10,7 @@ title: "👋🏻 Welcome!"
 quote: 
   style: 2
   display: true
-  heading: "Quote of the Day"
+  heading: "Random Quote of the Minute"
 
 design:
   background:
