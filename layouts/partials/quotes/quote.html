@@ -1,32 +1,58 @@
-<!-- 
-#############################################################
-    Display random or specific quotes
+{{/* 
+##############################
+# Display quotes from csv file
+##############################
+See also: 
 
+    /layouts/shortcodes/quote.html
+    /assets/scss/custom.scss
+   
+##############################
+## Requirement
+##############################
+Include front-matter in your target page:
+    ---
+    quote: 
+      style: 2
+      display: true
+      heading: "Quote of the Day"
+    ---
 
-#############################################################
--->
-<div class="responsive-wrap">
-    <div class="col-md-7">
-        <div class="section-subheading">Quote of the Day</div>
-        <div id="quote" style="color:#1565c0; font-family: 'PT Sans', sans-serif; font-weight: 400; line-height: 1.25; text-rendering: optimizeLegibility;"></div>
-        <div id="source" style="color:#1565c0; font-weight:bold; font-size:.85em; font-style: italic;"></div>
-    </div>    
-</div>
+##############################
+### Front-matter description
+##############################
+    style: integer 
+      * 1 = Random quote + source separated by a single space, no other formatting, no title.
+      * 2 = Title, text and source in separate <div> with class names for CSS.
+    
+    display: bool 
+      * true = display
+      * false = hide
+    
+    heading: string
+      * Text to display above quote.
+    
+##############################
+## Use
+##############################
+As a Page Partial in layouts:
 
+    {{ partial "quotes/quote.html" . }}
+ 
+    See example: /layouts/partions/widgets/about.html
+*/}}
 
-<script>
-    var quote=new Array();
-    var source=new Array();
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $qstyle := $page.Params.quote.style | default 1 }}
+{{ $qdisplay := $page.Params.quote.display | default false }}
+{{ $qheading := $page.Params.quote.heading | default "" }}
 
-    {{ range $i, $quote := getCSV "|" "quotes.csv"  }}
-      {{ $q := split (index . 0) "|" }}
-      {{ $s := split (index . 1) "|" }}
-      quote[{{ $i }}] = {{ $q }}; 
-      source[{{ $i }}] = {{ $s }};
-    {{ end }}
-
-    index = Math.floor(Math.random() * quote.length);
-    document.getElementById("quote").innerHTML = quote[index];
-    document.getElementById("source").innerHTML = source[index];
-</script>
-
+{{if eq $qdisplay true}}
+    {{if eq $qstyle 1}}
+        {{ partial "quotes/quotestyle1.html" . }}
+    {{end}}
+    {{if eq $qstyle 2}}
+      {{ partial "quotes/quotestyle2.html" $qheading }}   
+    {{end}}
+{{end}}

@@ -1,0 +1,26 @@
+<!-- 
+#############################################################
+    Display random or specific quotes
+
+
+#############################################################
+-->
+<div id="quote" style="color:#1565c0; font-family: 'PT Sans', sans-serif; font-weight: 400; line-height: 1.25; text-rendering: optimizeLegibility;"></div>
+<div id="source" style="color:#1565c0; font-weight:bold; font-size:.85em; font-style: italic;"></div>
+
+<script>
+    var quote=new Array();
+    var source=new Array();
+
+    {{ range $i, $quote := getCSV "|" "quotes.csv"  }}
+      {{ $q := split (index . 0) "|" }}
+      {{ $s := split (index . 1) "|" }}
+      quote[{{ $i }}] = {{ $q }}; 
+      source[{{ $i }}] = {{ $s }};
+    {{ end }}
+
+    index = Math.floor(Math.random() * quote.length);
+    document.getElementById("quote").innerHTML = quote[index];
+    document.getElementById("source").innerHTML = source[index];
+</script>
+

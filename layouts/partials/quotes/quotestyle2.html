@@ -1,0 +1,21 @@
+<!-- Style 2: formatted random quotes-->
+<div id="qheading" class="qheading">{{ . }}</div>
+<div id="qtext" class="qtext"></div>
+<div id="qsource" class="qsource"></div>
+
+<script>
+    var qtext=new Array();
+    var qsource=new Array();
+
+    {{ range $i, $quote := getCSV "|" "quotes.csv"  }}
+      {{ $q := split (index . 0) "|" }}
+      {{ $s := split (index . 1) "|" }}
+      qtext[{{ $i }}] = {{ $q }}; 
+      qsource[{{ $i }}] = {{ $s }};
+    {{ end }}
+
+    index = Math.floor(Math.random() * qtext.length);
+    document.getElementById("qtext").innerHTML = qtext[index];
+    document.getElementById("qsource").innerHTML = qsource[index];
+</script>
+

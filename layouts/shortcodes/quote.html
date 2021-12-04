@@ -1,32 +1,36 @@
-<!-- 
-#############################################################
-    Display random or specific quotes
+{{/* 
+##############################
+# Display quotes from csv file
+##############################
+See also: 
 
+    /layouts/partials/quotes/quote.html
+    /assets/scss/custom.scss
 
-#############################################################
--->
-<div class="responsive-wrap">
-    <div class="col-md-7">
-        <div class="section-subheading">Quote of the Day</div>
-        <div id="quote" style="color:#1565c0; font-family: 'PT Sans', sans-serif; font-weight: 400; line-height: 1.25; text-rendering: optimizeLegibility;"></div>
-        <div id="source" style="color:#1565c0; font-weight:bold; font-size:.85em; font-style: italic;"></div>
-    </div>    
-</div>
+##############################
+## Use
+##############################
+Include the shortcode in your Markdown post, document, etc. The shortcode allows two parameters: style and heading.
 
+    {{% quote [style] [heading] %}}
 
-<script>
-    var quote=new Array();
-    var source=new Array();
+    style: integer 
+      * 1 = No formatting.
+            Random quote + source separated by a single space, no other formatting, no title.
+      * 2 = Default value if not supplied. 
+            Formatted title, text and source in separate <div> with class names for CSS.
+        
+    heading: string
+      * Optional title to display above quote.
+    
+*/}}
 
-    {{ range $i, $quote := getCSV "|" "quotes.csv"  }}
-      {{ $q := split (index . 0) "|" }}
-      {{ $s := split (index . 1) "|" }}
-      quote[{{ $i }}] = {{ $q }}; 
-      source[{{ $i }}] = {{ $s }};
-    {{ end }}
+{{ $qstyle := .Get 0 | default 2 }}
+{{ $qheading := .Get 1 | default "" }}
 
-    index = Math.floor(Math.random() * quote.length);
-    document.getElementById("quote").innerHTML = quote[index];
-    document.getElementById("source").innerHTML = source[index];
-</script>
-
+{{if eq $qstyle 1}}
+  {{ partial "quotes/quotestyle1.html" . }}
+{{end}}
+{{if eq $qstyle 2}}
+  {{ partial "quotes/quotestyle2.html" $qheading }}   
+{{end}}
