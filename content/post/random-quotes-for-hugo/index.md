@@ -19,7 +19,7 @@ draft: false
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
 ---
 
 When I ran a Fido BBS, I was a big fan of the random quotes shown to users when they logged on. Unfortunately, that feature fell out of favor in the IT world for some reason. I could try to analyze why or claim that "simpler times were better," but that's not true. Things in IT, on the whole, are much better today. This is just a feature that I liked and missed. I also wanted to learn more about writing code for Hugo, and this was a good beginner challenge. So, I decided to add that feature to my website, and here's how I did it. 
