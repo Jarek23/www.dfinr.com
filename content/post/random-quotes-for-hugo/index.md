@@ -38,7 +38,7 @@ The shortcode looks like this:
 {{%/* quote 2 "Example Quote" */%}}
 ```
 
-I made the shortcode flexible, with two different styles and an optional header. Style 1 is plain text with no formatting. Style 2 separates each element into its own `<div>` with a CSS class. The header is optional.
+I made the shortcode flexible, with two different styles and an optional header. Style 1 is plain text with no formatting. Style 2 separates each element into its own `<div>` with a CSS class. The header is optional. The example above is style 2.
 
 I also wanted to use this feature on the home page, which meant I needed to write a page partial to embed in the Hugo widget. However, I didn't want to maintain two versions, so I decided to focus on the page widget version first, and then make a thin wrapper for the shortcode.
 
