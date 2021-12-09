@@ -19,7 +19,7 @@ image:
   focal_point: ""
   preview_only: false
 ---
-When I ran a dial-up BBS in the '80s, I was a big fan of the random quotes on the welcome screen. Some Unix systems back then had cool quotes too. That feature seems to have fallen out of favor; I don't see it online in many places anymore. I thought it would be an excellent way to learn how to write shortcodes for Hugo, so I decided to add it to my website.
+I wanted to put some random quotes on this website, but Hugo is a static site generator. I looked around to see if anyone had solved this problem, but I couldn't find any widgets. I thought this would be an excellent way to learn more about extending Hugo, so I wrote one. 
 
 Here it is in action. Each time you reload this page the quote changes.
 
@@ -29,7 +29,7 @@ Here it is in action. Each time you reload this page the quote changes.
 
 ---
 
-If you'd like to add this to your Hugo site, it's pretty easy to add it to any template. 
+If you'd like to add this to your Hugo site, it's pretty easy. 
 
 ## Source Files
 

@@ -8,7 +8,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 30
 
 title: Experience
 subtitle:
@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Senior Technical Editor
+  - title: Managing Technical Editor
     company: Vultr.com
     company_url: 'https://www.vultr.com'
     company_logo: signet__on-white
@@ -31,16 +31,19 @@ experience:
     date_start: '2020-02-24'
     date_end: ''
     description: >-
-        Manager of docummentation department responsible for corporate style guide and Trusted Author community writing program. 
+      ◆ Manager of Vultr's [documentation library](https://www.vultr.com/docs/) and [Trusted Author](https://vultrdocs.notion.site/) program<br />
+      ◆ Author of the [Vultr Style Guide](https://www.vultr.com/docs/vultr-docs-style-guide/) and [Markdown Toolkit](https://github.com/vultr/vultr-mdtk#readme)
 
-  - title: Owner
+  - title: Founder
     company: ProtectBits
     company_url: ''
     company_logo: protectbits
     location: Texas
     date_start: '2004-01-20'
     date_end: '2020-02-23'
-    description: Founder and principal IT consultant serving business, government, and residential clients.
+    description: >-
+      ◆ Founder and principal IT consultant<br />
+      ◆ Supporting more than 200 business, residential, and government clients
 
   - title: Senior Programmer III
     company: Levi Strauss & Co.
@@ -49,7 +52,9 @@ experience:
     location: Texas
     date_start: '2001-01-01'
     date_end: '2004-12-31'
-    description: Team lead for web-based supply-chain applications.
+    description: >-
+      ◆ Team leader for web-based supply-chain applications<br />
+      ◆ Product owner of the Terms of Engagement app
 
   - title: Webmaster
     company: Micrografx / Corel
@@ -58,7 +63,9 @@ experience:
     location: Texas
     date_start: '1999-01-01'
     date_end: '2000-12-31'
-    description: Web team leader for multi-lingual website.
+    description: >-
+      ◆ Manager of web development team<br />
+      ◆ Responsible for multi-lingual corporate website
 
   - title: Technical Specialist
     company: Thomson Reuters / Computer Language Research
@@ -67,7 +74,9 @@ experience:
     location: Texas
     date_start: '1992-01-01'
     date_end: '1999-12-31'
-    description: Senior developer for tax compliance and IRS audit products.
+    description: >-
+      ◆ Senior developer, Advanced Technology Group<br />
+      ◆ Tax compliance, IRS audit, and web-based training products
 
 design:
   columns: '2'

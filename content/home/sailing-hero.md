@@ -5,7 +5,7 @@ advanced:
 widget: blank
 widget_id: sailing-hero
 headless: true
-weight: 35
+weight: 20
 title: ""
 subtitle: ""
 active: true

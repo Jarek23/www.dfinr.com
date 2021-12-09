@@ -3,14 +3,6 @@
         {
             "name": "www.dfinr.com",
             "path": "."
-        },
-        {
-            "name": ".vale",
-            "path": ".vale"
-        },
-        {
-            "name": "content",
-            "path": "content"
         }
     ],
     "settings": {
