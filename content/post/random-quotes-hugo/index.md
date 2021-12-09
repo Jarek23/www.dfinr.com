@@ -1,6 +1,6 @@
 ---
 title: "Random Quotes for Hugo"
-subtitle: "A Shortcode and Partial Page Template"
+subtitle: "A Dynamic Shortcode & Widget"
 summary: ""
 authors:
   - david-finster
