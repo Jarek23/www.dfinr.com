@@ -42,8 +42,8 @@ experience:
     date_start: '2004-01-20'
     date_end: '2020-02-23'
     description: >-
-      ◆ Founder and principal IT consultant<br />
-      ◆ Delivering solutions for business and government clients
+      ◆ Founder and Principal Consultant<br />
+      ◆ Professional solutions for government, business, and non-profit clients
 
   - title: Senior Programmer III
     company: Levi Strauss & Co.
@@ -58,13 +58,13 @@ experience:
 
   - title: Webmaster
     company: Micrografx / Corel
-    company_url: ''
+    company_url: 'https://www.corel.com/en/'
     company_logo: Corel_logo
     location: Texas
     date_start: '1999-01-01'
     date_end: '2000-12-31'
     description: >-
-      ◆ Manager of web development team<br />
+      ◆ Manager of the web development team<br />
       ◆ Responsible for multi-lingual corporate website
 
   - title: Technical Specialist
@@ -75,7 +75,7 @@ experience:
     date_start: '1992-01-01'
     date_end: '1999-12-31'
     description: >-
-      ◆ Senior developer, Advanced Technology Group<br />
+      ◆ Developer Advocate - Advanced Technology Group<br />
       ◆ Tax compliance, IRS audit, and web-based training products
 
 design:
