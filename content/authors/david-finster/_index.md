@@ -20,9 +20,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/dfinr
-#organizations:
-#  - name: The Constant Company
-#    url: https://www.constant.com/
+organizations:
+  - name: The Constant Company
+    url: https://www.constant.com/
 #  - name: Vultr
 #    url: https://www.vultr.com/
 #education:
