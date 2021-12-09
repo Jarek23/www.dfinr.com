@@ -43,7 +43,7 @@ experience:
     date_end: '2020-02-23'
     description: >-
       ◆ Founder and principal IT consultant<br />
-      ◆ Supporting more than 200 business, residential, and government clients
+      ◆ Delivering solutions for business and government clients
 
   - title: Senior Programmer III
     company: Levi Strauss & Co.
@@ -53,8 +53,8 @@ experience:
     date_start: '2001-01-01'
     date_end: '2004-12-31'
     description: >-
-      ◆ Team leader for web-based supply-chain applications<br />
-      ◆ Product owner of the Terms of Engagement app
+      ◆ Team leader for supply-chain web application development<br />
+      ◆ Product owner of the Terms of Engagement application
 
   - title: Webmaster
     company: Micrografx / Corel
