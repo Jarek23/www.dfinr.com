@@ -100,7 +100,8 @@ show_related:
 reading_time: true
 section_pager: false
 docs_section_pager: true
-sharing: true
+sharing: false
+## i_am_a_sponsor: true 
 copyright_license:
   enable: false
   allow_derivatives: false
