@@ -11,6 +11,11 @@ lastmod: 2021-12-04T20:46:48-05:00
 featured: false
 draft: false
 
+quote: 
+  style: 2
+  display: true
+  heading: "Quote of the Day"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
@@ -21,13 +26,7 @@ image:
 ---
 I wanted to put some random quotes on this website, but Hugo is a static site generator. I looked around to see if anyone had solved this problem, but I couldn't find any widgets. I thought this would be an excellent way to learn more about extending Hugo, so I wrote one. 
 
-Here it is in action. Each time you reload this page the quote changes.
-
----
-
-{{% quote 2 "Quote of the Minute" %}}
-
----
+To see it in action, look at the bottom of this page. The quote will change each time you reload. 
 
 If you'd like to add this to your Hugo site, it's pretty easy. 
 
@@ -122,3 +121,6 @@ You can see it in action [on the home page](https://www.dfinr.com/), and the cod
 ## Limitations
 
 You can only use the random quotes one time on each page. This is a possible area for improvement in a future release. 
+
+---
+{{% quote 2 "Quote of the Day" %}}

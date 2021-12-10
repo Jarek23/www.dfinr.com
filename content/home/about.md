@@ -7,11 +7,6 @@ headless: true
 weight: 10
 title: "👋🏻 Welcome!"
 
-quote: 
-  style: 2
-  display: true
-  heading: "Random Quote of the Minute"
-
 design:
   background:
     image: ""
