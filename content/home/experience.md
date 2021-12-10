@@ -75,7 +75,7 @@ experience:
     date_start: '1992-01-01'
     date_end: '1999-12-31'
     description: >-
-      ◆ Developer Advocate - Advanced Technology Group<br />
+      ◆ Advanced Technology Group<br />
       ◆ Tax compliance, IRS audit, and web-based training products
 
 design:
