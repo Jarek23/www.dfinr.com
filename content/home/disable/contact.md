@@ -15,4 +15,5 @@ content:
 widget_id: contact
 design:
   columns: "2"
+active: false
 ---
