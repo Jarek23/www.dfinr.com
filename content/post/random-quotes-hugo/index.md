@@ -24,11 +24,11 @@ image:
   focal_point: ""
   preview_only: false
 ---
-I wanted to put some random quotes on this website, but Hugo is a static site generator. I looked around to see if anyone had solved this problem, but I couldn't find any widgets. I thought this would be an excellent way to learn more about extending Hugo, so I wrote one. 
+I wanted to put some random quotes on this website, but Hugo is a static site generator. I looked around to see if anyone had solved this problem, but I couldn't find any widgets. I thought this would be an excellent way to learn more about extending Hugo, so I wrote one.
 
-To see it in action, look at the bottom of this page. The quote will change each time you reload. 
+To see it in action, look at the bottom of this page. The quote will change each time you reload.
 
-If you'd like to add this to your Hugo site, it's pretty easy. 
+If you'd like to add this to your Hugo site, it's pretty easy.
 
 ## Source Files
 
@@ -55,14 +55,14 @@ To display a quote on your page, use this shortcode, which allows two optional p
 {{%/* quote [style] [heading] */%}}
 ```
 
-**style**: integer 
+**style**: integer
 
 * Style `1` has no formatting or CSS. It displays a random quote and the source, separated by a single space. Style 1 does not support a heading.
 * Style 2 is the default if you omit the parameter. It shows an optional heading, text, and the source, which can be formatted with CSS.
 
 **heading**: string
 
-* An optional title to display above quote.
+* A title to display above quote. This is optional.
 
 ### Examples
 
@@ -108,7 +108,7 @@ quote:
 
 **heading**: string
 
-* Text to display above the quote.
+* Text to display above the quote. This is optional.
 
 To call the Page Partial:
 
@@ -120,7 +120,7 @@ You can see it in action [on the home page](https://www.dfinr.com/), and the cod
 
 ## Limitations
 
-You can only use the random quotes one time on each page. This is a possible area for improvement in a future release. 
+You can only use the random quotes one time on each page. This is a possible area for improvement in a future release.
 
 ---
 {{% quote 2 "Quote of the Day" %}}
